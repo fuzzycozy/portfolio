@@ -139,6 +139,10 @@
                             justify-content: space-between;
                             position: relative;
                             z-index: 9;
+                            
+                            &:hover > span{
+                                text-shadow: 0 0 2px #ffef03;
+                            }
 
                             span {
                                 color: #ffef03;

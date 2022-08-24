@@ -195,6 +195,9 @@ h1 {
   font-size: 1.25rem;
   cursor: pointer;
 }
+h1:hover {
+  text-shadow: 0 0 2px #ffef03;
+}
 
 a {
   text-decoration: none;
@@ -464,6 +467,9 @@ main.menuOn {
   justify-content: space-between;
   z-index: 9;
 }
+.swiper.pup_wrap .swiper-wrapper .pup_cont .secP_01 .info a:hover > span {
+  text-shadow: 0 0 2px #ffef03;
+}
 .swiper.pup_wrap .swiper-wrapper .pup_cont .secP_01 .info a span {
   color: #ffef03;
   font-family: "Comfortaa", cursive;
@@ -589,6 +595,9 @@ main.menuOn {
   justify-content: space-between;
   z-index: 9;
 }
+.swiper.pup_wrap .swiper-wrapper .pup_cont .secP_04 button:hover > span {
+  text-shadow: 0 0 2px #ffef03;
+}
 .swiper.pup_wrap .swiper-wrapper .pup_cont .secP_04 button span {
   color: #ffef03;
   font-family: "Comfortaa", cursive;
@@ -642,4 +651,10 @@ main.menuOn {
 .pupX span:nth-of-type(2) {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=common.css.map */
