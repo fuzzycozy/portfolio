@@ -625,7 +625,7 @@ main.menuOn {
   position: fixed;
   right: 0;
   top: 0;
-  margin: 0.5% 2% 0 0;
+  margin: 2vw 2vw 0 0;
   cursor: pointer;
   z-index: 999;
   display: none;
