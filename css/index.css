@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nanum+Gothic&family=Oxanium:wght@200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "EliceDigitalBaeum";
+  src: url("../fonts/EliceDigitalBaeum_Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EliceDigitalBaeum";
+  src: url("../fonts/EliceDigitalBaeum_bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
 @-webkit-keyframes arrow {
   0% {
     transform: translateY(100%);
@@ -219,7 +231,7 @@ h4 {
 
 * {
   box-sizing: border-box;
-  font-family: "Oxanium", "Nanum Gothic", sans-serif;
+  font-family: "Oxanium", "EliceDigitalBaeum", "Nanum Gothic", sans-serif;
   font-style: normal;
 }
 
