@@ -120,6 +120,13 @@
     }
 }
 
+@keyframes lineM{
+    0%{width:0%}
+    55%{width:0%}
+    75%{width:100%}
+    100%{width:0%}
+}
+
 
 html,
 body {
@@ -235,16 +242,12 @@ header {
         p {
             display: inline-block;
             font-size: 1rem;
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            transform: translate(-50%, 0%);
         }
 
         // 버거메뉴 버튼
         .burger {
-            width: 32px;
-            height: 25px;
+            width: 2em;
+            height: 1.5em;
             position: relative;
             cursor: pointer;
             transform: translateY(20%);
@@ -305,7 +308,7 @@ header {
 
             &.active {
                 transform: scaleX(1);
-                height: 97vh;
+                height: 93vh;
 
                 ul {
                     li {
@@ -325,7 +328,6 @@ header {
                     cursor: pointer;
                     font-size: 4.75rem;
                     font-weight: 600;
-                    transform: translateY(-50%);
                     opacity: 0;
 
                     &:hover {
@@ -435,7 +437,7 @@ main.menuOn {
                         font-size:1.25em;
                         white-space: pre-line;
                         line-height:1.8em;
-                        color:#eeeeee;
+                        color:#dddddd;
     
                         span {
                             font-size: 1rem;
@@ -447,7 +449,7 @@ main.menuOn {
                         cursor: pointer;
                         position: absolute;
                         right: 0;
-                        bottom: 0;
+                        top: 100%;
                         width: 35.5%;
                         padding: 1.2rem 1.9rem;
                         background-color: #000000;
@@ -556,7 +558,7 @@ main.menuOn {
                             font-size:1.25em;
                             white-space: pre-line;
                             line-height:1.8em;
-                            color:#eeeeee;
+                            color:#dddddd;
                         }
                     }
                 }
@@ -664,6 +666,40 @@ main.menuOn {
 
 /////////////// 반응형 ///////////////////////////////////////////
 /// 
-@media (max-width:1500px){
-    html{font-size:13px}
+
+
+@media (min-width:1441px) and (max-width:1500px){
+    html,body{font-size:14px}
 }
+
+
+@media (min-width:1025px) and (max-width:1440px){
+    html,body{font-size:13px};
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    html,body{font-size:13px};
+}
+
+@media (min-width:360px) and (max-width:767px){
+    html,body{font-size:12px};
+    #fp-nav.right{
+        top:93%;
+        right:22.5px !important;
+    };
+    header{
+        nav{
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+    .intro,.load{
+        b{
+            font-size:7rem;
+        }
+    }
+}
+
+
+

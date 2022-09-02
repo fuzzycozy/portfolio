@@ -101,7 +101,7 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.right {
-    right: 17px;
+    right: 0.5em;
 }
 #fp-nav.left {
     left: 17px;
@@ -131,9 +131,8 @@ html.fp-enabled,
 #fp-nav ul li,
 .fp-slidesNav ul li {
     display: block;
-    width: 50px;
-    height: 20px;
-    margin: 7px;
+    width: 35px;
+    height: 18px;
     position:relative;
 }
 .fp-slidesNav ul li {
@@ -163,7 +162,7 @@ html.fp-enabled,
     top:50%;
     z-index: 1;
     height: 4px;
-    width: 50px;
+    width: 35px;
     padding-top:4px;
     border-top:solid 1px #eee;
     transform:scaleX(0.5);
