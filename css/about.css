@@ -307,7 +307,7 @@ h3 {
 
 header {
   width: 100%;
-  height: 7vh;
+  height: 5vh;
   position: fixed;
   z-index: 99;
 }
@@ -315,7 +315,7 @@ header .header_wrap {
   width: 87.5%;
   margin: 0 auto;
   position: relative;
-  bottom: -7vh;
+  bottom: -5vh;
   transform: translateY(-100%);
   display: flex;
   justify-content: space-between;
@@ -376,7 +376,7 @@ header .header_wrap nav {
 }
 header .header_wrap nav.active {
   transform: scaleX(1);
-  height: 93vh;
+  height: 90vh;
 }
 header .header_wrap nav.active ul li {
   -webkit-animation: fadeIn 0.3s 1s ease-in forwards;
